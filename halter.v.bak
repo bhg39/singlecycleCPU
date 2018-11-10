@@ -1,0 +1,19 @@
+module halter(HALT, EN_L, H);
+	input HALT;
+	input EN_L;
+	
+	output H;
+	
+	
+	reg EN_LP;
+
+	always @(*) begin
+	if(EN_LP == 1;) begin
+		if(EN_LP == 0;) H = 1;
+		else H = 0;
+	end
+	else H = 0;
+	
+	end
+
+endmodule 

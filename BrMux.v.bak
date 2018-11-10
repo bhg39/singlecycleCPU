@@ -1,0 +1,12 @@
+module BrMux(Z, Z', N, N', MP);
+
+	input Z;
+	input Z';
+	input N;
+	input N';
+	
+	output MP;
+
+
+
+endmodule
